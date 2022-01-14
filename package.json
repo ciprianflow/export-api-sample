@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-static-file-server-boilerplate",
+  "version": "0.0.1",
+  "description": "A simple boilerplate to easily get started with a nodejs static file server.",
+  "private": true,
+  "scripts": {
+    "start": "PORT=3000 node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-static": "0.6.x"
+  },
+  "main": "app.js",
+  "license": "MIT"
+}
